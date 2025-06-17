@@ -21,7 +21,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 
 
-Architecture:-
+###Architecture:-
 FastAPI: Web framework
 
 Transformers (HuggingFace): Summarization model
@@ -30,7 +30,7 @@ Docker: Deployment containerization
 
 Optional: Redis + Celery for async processing
 
- Assumptions:-
+###Assumptions:-
 Input is a single string of raw meeting notes.
 
 Output is a single summary.
