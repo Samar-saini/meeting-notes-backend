@@ -8,7 +8,9 @@ A backend service that summarizes meeting transcripts using a transformer-based 
 
 - Python 3.10+
 - Docker (for containerized deployment)
-###Architecture:-
+
+
+### Requirements
 FastAPI: Web framework
 
 Transformers (HuggingFace): Summarization model
@@ -17,7 +19,8 @@ Docker: Deployment containerization
 
 Optional: Redis + Celery for async processing
 
-###Assumptions:-
+
+###Assumptions
 Input is a single string of raw meeting notes.
 
 Output is a single summary.
