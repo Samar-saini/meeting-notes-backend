@@ -12,7 +12,7 @@ redis_client = redis.from_url(REDIS_URL)
 
 # Load the Hugging Face summarization pipeline (only once)
 print("📦 Loading summarization model...")
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
 print("✅ Model loaded")
 
 def summarize_text(transcript: str) -> str:
