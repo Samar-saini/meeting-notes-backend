@@ -1,0 +1,16 @@
+### Requirements
+FastAPI: Web framework
+
+Transformers (HuggingFace): Summarization model
+
+Docker: Deployment containerization
+
+Redis + Celery for async processing
+
+
+###Assumptions
+Input is a single string of raw meeting notes.
+
+Output is a single summary.
+
+Model used is sshleifer/distilbart-cnn-12-6 to reduce memory requirements.
