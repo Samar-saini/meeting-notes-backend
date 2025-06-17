@@ -1,0 +1,8 @@
+example/input.json
+{
+  "meeting_notes": "The product team met to finalize launch plans..."
+}
+example/output.json
+{
+  "summary": "The product team finalized launch plans."
+  }
