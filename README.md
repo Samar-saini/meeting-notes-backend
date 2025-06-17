@@ -10,23 +10,6 @@ A backend service that summarizes meeting transcripts using a transformer-based 
 - Docker (for containerized deployment)
 
 
-### Requirements
-FastAPI: Web framework
-
-Transformers (HuggingFace): Summarization model
-
-Docker: Deployment containerization
-
-Optional: Redis + Celery for async processing
-
-
-###Assumptions
-Input is a single string of raw meeting notes.
-
-Output is a single summary.
-
-Model used is sshleifer/distilbart-cnn-12-6 to reduce memory requirements.
-
 
 ### Local Setup
 
