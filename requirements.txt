@@ -1,0 +1,9 @@
+fastapi
+uvicorn 
+celery 
+redis
+python-dotenv
+transformers==4.40.1
+numpy<2.0
+pydantic
+sentencepiece

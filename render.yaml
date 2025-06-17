@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: summarizer-api
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
